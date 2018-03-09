@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">RESTAPIAssignment</string>
+    <string name="header1">Welcome to the Weather App!!</string>
+    <string name="header2">Please enter latitude and longitude
+    to see the \n\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\t\current weather!</string>\
+    <string name="latitude">Latitude</string>
+    <string name="longitude">Longitude</string>
+    <string name="aboveButton">Click on the sun to see the weather!</string>
+    <string name="weatherIs">The Weather Is....</string>
+</resources>
