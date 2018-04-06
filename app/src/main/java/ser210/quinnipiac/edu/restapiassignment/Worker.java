@@ -15,9 +15,9 @@ import java.net.URL;
  */
 
 public class Worker extends AsyncTask<String, String, String> {
-    private MainActivity main;
+    private MainFragment main;
 
-    public Worker(MainActivity m) {
+    public Worker(MainFragment m) {
         main = m;
     }
 

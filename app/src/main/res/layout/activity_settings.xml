@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:id="@+id/settings"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context="ser210.quinnipiac.edu.restapiassignment.SettingsActivity">
+    <TextView
+        android:layout_marginTop="40dp"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/background_selection" />
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:orientation="horizontal">
+
+        <ImageButton
+            android:id="@+id/buttonimage1"
+            android:background="@drawable/cloudss"
+            android:onClick="OnButtonClick"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+        <ImageButton
+            android:id="@+id/buttonimage2"
+            android:onClick="OnButtonClick"
+            android:background="@drawable/sunnybackground"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+        <ImageButton
+            android:id="@+id/buttonimage3"
+            android:onClick="OnButtonClick"
+            android:background="@drawable/snowbackground"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+    </LinearLayout>
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="28sp"
+        android:layout_marginTop="125dp"
+        android:layout_gravity="center_horizontal"
+        android:text="@string/font_selection"/>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="25dp"
+        android:orientation="horizontal">
+
+        <Button
+            android:id="@+id/fontButton1"
+            android:text="@string/sampletext"
+
+            android:onClick="OnButtonClick"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+        <Button
+            android:id="@+id/fontButton2"
+            android:text="@string/sampletext"
+            android:fontFamily="serif-monospace"
+            android:onClick="OnButtonClick"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+        <Button
+            android:id="@+id/fontButton3"
+            android:text="@string/sampletext"
+            android:fontFamily="serif"
+            android:onClick="OnButtonClick"
+            android:layout_width="120dp"
+            android:layout_height="120dp" />
+
+    </LinearLayout>
+
+
+</LinearLayout>

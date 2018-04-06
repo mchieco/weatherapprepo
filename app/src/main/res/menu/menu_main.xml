@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:context=".MainActivity">
+    <item android:id="@+id/action_share"
+        android:title="@string/action_share"
+        android:orderInCategory="1"
+        android:showAsAction="always"
+        android:actionProviderClass="android.widget.ShareActionProvider" />
+
+    <item android:id="@+id/addtofavorites"
+        android:title="@string/action_favorites"
+        android:orderInCategory="2"
+        android:showAsAction="ifRoom" />
+
+    <item android:id="@+id/displayfavorites"
+        android:title="@string/action_display"
+        android:orderInCategory="3"
+        android:showAsAction="ifRoom" />
+    <item
+        android:id="@+id/linkcity"
+        android:title="@string/linkcity"
+        android:orderInCategory="4"
+        android:showAsAction="ifRoom"/>
+
+
+    <item android:id="@+id/action_settings"
+        android:title="@string/action_settings"
+        android:orderInCategory="100"
+        android:showAsAction="never" />
+
+
+</menu>

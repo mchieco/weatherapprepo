@@ -7,4 +7,18 @@
     <string name="longitude">Longitude</string>
     <string name="aboveButton">Click on the sun to see the weather!</string>
     <string name="weatherIs">The Weather Is....</string>
+    <string name="action_share">Share</string>
+    <string name="action_settings">Settings</string>
+    <string name="action_display">Display Favorites</string>
+    <string name="action_favorites">Add to Favorites</string>
+    <string name="font_selection">Font Selection</string>
+    <string name="background_selection">Background Selection</string>
+    <string name="sampletext">Sample Text</string>
+    <string name="delete">Delete</string>
+    <string name="favorites">Favorites</string>
+    <string name="linkcity">Link City</string>
+    <string name="city">City</string>
+    <string name="linktext">Enter a City Name to Link to Latitiude and Longitude</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
 </resources>
